@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# Virtual Envs
+venv/
+env/
+.venv/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment variables
+.env
+.env.*
+*.env
+secrets.json
+
+# Databases
+*.db
+*.sqlite3
+
+# Vector DB
+vector_store/
+
+# User uploads
+uploaded_pdfs/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Docker
+docker-compose.override.yml
+.env.docker
